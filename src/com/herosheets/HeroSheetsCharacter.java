@@ -1,19 +1,21 @@
 package com.herosheets;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.herosheets.MiniCharacter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 import com.mindgene.d20.common.creature.CreatureTemplate;
 
+@JsonIgnoreProperties(ignoreUnknown=true)
 public final class HeroSheetsCharacter implements java.io.Serializable {
 
     /* Constructor. With the @JsonCreator annotation, Jackson will use this
-     * method to generate new JacksonImmutableExample objects. */
+     * method to generate new  objects. */
     @JsonCreator
     public HeroSheetsCharacter(
             @JsonProperty("id") final int id,
-            @JsonProperty("uuid") final String uuid ) {
+            @JsonProperty("uuid") final String uuid) {
         this.id = id;
         this.uuid = uuid;
     }
