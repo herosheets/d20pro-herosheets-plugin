@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<project name="d20Pro" basedir="." default="init">
+	
+	<target name="init">
+	  <echo message="basedir: ${basedir}" />
+        <buildPlugin bin.dir="bin"
+                     src.dir="src"
+                     plugin.file="d20ProPlugin_HeroSheets.jar"
+                     command.factory="com.herosheets.CommandFactoryImpl" />
+
+    </target>
+
+	<path id="plugin-build-classpath">
+	  <fileset dir="lib">
+	   <include name="**/*.jar" />
+	  </fileset>
+	 </path>
+
+    <macrodef name="buildPlugin">
+        <attribute name="bin.dir" />
+        <attribute name="src.dir" />
+        <attribute name="plugin.file" />
+        <attribute name="command.factory" />
+        <sequential>
+            <echo message="basedir: ${basedir}" />
+            <echo message="bin: @{bin.dir}" />
+
+            <echo message="Building @{plugin.file}" />
+
+            <delete dir="@{bin.dir}" />
+            <mkdir dir="@{bin.dir}" />
+
+            <delete file="@{plugin.file}" />
+
+            <javac destdir="@{bin.dir}"
+                   source="1.5"
+                   target="1.5"
+                   debug="true"
+                   deprecation="false"
+                   optimize="true"
+                   failonerror="true">
+            <!--javac destdir="@{bin.dir}" source="1.5" target="1.5" debug="true" deprecation="false" optimize="true" failonerror="false"-->
+                <!-- <compilerarg value="-Xlint:unchecked" /> -->
+                <src path="@{src.dir}" />
+                <classpath refid="plugin-build-classpath" />
+            </javac>
+
+            <jar jarfile="@{plugin.file}" compress="true">
+                <fileset dir="@{bin.dir}">
+                    <include name="**/*.class" />
+                </fileset>
+
+                <manifest>
+                    <attribute name="Built-By" value="Jordan OMara" />
+                    <attribute name="Sealed" value="true" />
+                    <attribute name="Fac1" value="@{command.factory}" />
+                </manifest>
+            </jar>
+            <copy file="@{plugin.file}" todir="${basedir}/plugins" />
+        </sequential>
+    </macrodef>
+
+	<target name="buildPlugin_HeroSheets">
+		<!--buildPlugin bin.dir="${herosheets.plugin.dir}/bin" src.dir="${herosheets.plugin.dir}/src" plugin.file="${herosheets.plugin.dir}/d20ProPlugin_HeroSheets.jar" command.factory="com.herosheets.CommandFactoryImpl" /-->
+	</target>
+
+</project>
