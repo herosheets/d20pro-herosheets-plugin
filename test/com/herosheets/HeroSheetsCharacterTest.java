@@ -71,7 +71,7 @@ public class HeroSheetsCharacterTest {
             Assert.assertEquals("uuid equals", character.getuuid(), "1d1030fb-b0d3-4213-b35f-6c98e86e6ec8");
             Assert.assertEquals("character name", character.getCharacter().getCharacterName(), "asdfasdf");
             Assert.assertEquals("hit die", character.getCharacter().getHitDice(), "3");
-            Assert.assertEquals("combat dex bonus", character.getCombat().getBab(), "3");
+            Assert.assertEquals("combat dex bonus", character.getCombat().getBab(), 3);
             Assert.assertEquals("levels", character.getMisc().getLevels().size(), 1);
             character.toCreatureTemplate(svc);
         } catch (IOException e) {

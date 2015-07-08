@@ -78,6 +78,9 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         parseAttributes(ct);
         parseSaves(ct);
         parseClasses(ct, svc);
+        parseArmor(ct);
+        parseFeats(ct);
+        parseSkills(ct);
         return ct;
     }
 
@@ -88,7 +91,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         ct.setHP((short) character.getHitPoints());
         ct.setHPMax((short) character.getHitPoints());
         ct.setHitDice(character.getHitDice());
-        ct.setMaxDexBonus((short) Integer.parseInt(getCombat().getDexBonus()));
+        ct.setMaxDexBonus((short) getCombat().getDexBonus());
         // TODO : figure out saves, weird API (two bytes)
         int speed = misc.calculateWalkSpeed();
         ct.accessSpeeds().assignLegacySpeed(CreatureSpeeds.feetToSquares(speed));
@@ -132,6 +135,23 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         }
 
         ct.getClasses().assignClasses(classList);
+    }
+
+    public void parseArmor(CreatureTemplate ct) {
+        byte[] _ac = new byte[6];
+        for (int i = 0; i < 6; i++) {
+            _ac[i] = 0;
+        }
+
+        _ac[0] += getCombat().getNaturalArmor();
+        _ac[1] = (byte) getCombat().getArmorBonus();
+        _ac[2] = (byte) getCombat().getShieldBonus();
+        _ac[3] += (byte) getCombat().getDeflection();
+        _ac[4] += (byte) getCombat().getClassBonus();
+        _ac[4] += (byte) getCombat().getMisc();
+        _ac[5] += (byte) getCombat().getDodgeBonus();
+
+        ct.setAC(_ac);
     }
 
     private static void defaultToFighter1(CreatureTemplate ctr, ArrayList<GenericCreatureClass> classes,
