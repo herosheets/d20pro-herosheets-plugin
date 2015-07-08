@@ -29,11 +29,18 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         return attributes;
     }
 
+    public SavingThrows getSaves() {
+        return saves;
+    }
+
     private final Combat combat;
     private final Misc misc;
     private final int id;
     private final String uuid;
     private final Attributes attributes;
+
+
+    private final SavingThrows saves;
 
     @JsonCreator
     public HeroSheetsCharacter(
@@ -42,13 +49,15 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
             @JsonProperty("character") final MiniCharacter character,
             @JsonProperty("combat") final Combat combat,
             @JsonProperty("misc") final Misc misc,
-            @JsonProperty("attributes") final Attributes attributes) {
+            @JsonProperty("attributes") final Attributes attributes,
+            @JsonProperty("saves") final SavingThrows saves) {
         this.id = id;
         this.uuid = uuid;
         this.character = character;
         this.combat = combat;
         this.misc = misc;
         this.attributes = attributes;
+        this.saves = saves;
     }
 
     /* Get the integer value. Jackson will use this during serialization. */
@@ -59,11 +68,9 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
 
     public CreatureTemplate toCreatureTemplate() {
         CreatureTemplate ct = new CreatureTemplate();
-
-
         parseBasics(ct);
         parseAttributes(ct);
-
+        parseSaves(ct);
         return ct;
     }
 
@@ -92,8 +99,20 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         }
     }
 
+    public void parseSaves(CreatureTemplate ct) {
+        for (byte i = 0; i < D20Rules.Save.NAMES.length; i++) {
+            String name = D20Rules.Save.NAMES[i];
+            int score = getSave(name);
+            ct.setSave(i, (byte) score);
+        }
+    }
+
     public int getAttribute(String attributeName) {
         return getAttributes().getValues().getByAbbreviation(attributeName);
+    }
+
+    public int getSave(String saveName) {
+        return getSaves().getByAbbreviation(saveName);
     }
 
 }

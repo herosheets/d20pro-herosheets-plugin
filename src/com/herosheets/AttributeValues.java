@@ -53,8 +53,6 @@ public final class AttributeValues implements java.io.Serializable {
     }
 
     public int getByAbbreviation(String abbreviation) {
-        System.out.println("Looking up " + abbreviation);
-        System.out.println("This.strength" + this.strength);
         switch (abbreviation) {
             case "STR":
                 return strength;
