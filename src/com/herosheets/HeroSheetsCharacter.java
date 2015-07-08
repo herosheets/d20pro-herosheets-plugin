@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
+import com.mindgene.d20.common.D20Rules;
 import com.mindgene.d20.common.creature.CreatureSpeeds;
 import com.mindgene.d20.common.creature.CreatureTemplate;
 
@@ -24,10 +25,15 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         return misc;
     }
 
+    public Attributes getAttributes() {
+        return attributes;
+    }
+
     private final Combat combat;
     private final Misc misc;
     private final int id;
     private final String uuid;
+    private final Attributes attributes;
 
     @JsonCreator
     public HeroSheetsCharacter(
@@ -35,12 +41,14 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
             @JsonProperty("uuid") final String uuid,
             @JsonProperty("character") final MiniCharacter character,
             @JsonProperty("combat") final Combat combat,
-            @JsonProperty("misc") final Misc misc) {
+            @JsonProperty("misc") final Misc misc,
+            @JsonProperty("attributes") final Attributes attributes) {
         this.id = id;
         this.uuid = uuid;
         this.character = character;
         this.combat = combat;
         this.misc = misc;
+        this.attributes = attributes;
     }
 
     /* Get the integer value. Jackson will use this during serialization. */
@@ -51,6 +59,15 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
 
     public CreatureTemplate toCreatureTemplate() {
         CreatureTemplate ct = new CreatureTemplate();
+
+
+        parseBasics(ct);
+        parseAttributes(ct);
+
+        return ct;
+    }
+
+    public void parseBasics(CreatureTemplate ct) {
         ct.setGameSystem("PFRPG");
         ct.setName(character.getCharacterName());
         ct.setAlignment(character.getAlignment());
@@ -61,9 +78,22 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         // TODO : figure out saves, weird API (two bytes)
         int speed = misc.calculateWalkSpeed();
         ct.accessSpeeds().assignLegacySpeed(CreatureSpeeds.feetToSquares(speed));
+        // TODO : reach is based on weapon, and is this a square?
+        ct.setReach((byte) 1);
+        // TODO : what is type
+        // TODO : how to set size
+    }
 
-        
-        return ct;
+    public void parseAttributes(CreatureTemplate ct) {
+        for (byte i = 0; i < D20Rules.Ability.NAMES.length; i++) {
+            String name = D20Rules.Ability.NAMES[i];
+            int score = getAttribute(name);
+            ct.setAbility(i, (byte) score);
+        }
+    }
+
+    public int getAttribute(String attributeName) {
+        return getAttributes().getValues().getByAbbreviation(attributeName);
     }
 
 }
