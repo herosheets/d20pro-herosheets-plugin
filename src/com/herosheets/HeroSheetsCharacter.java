@@ -13,6 +13,10 @@ import com.mindgene.d20.common.game.creatureclass.CreatureClassNotInstalledExcep
 import com.mindgene.d20.common.game.creatureclass.GenericCreatureClass;
 import com.mindgene.d20.common.game.feat.Feat_InitModifier;
 import com.mindgene.d20.common.game.feat.GenericFeat;
+import com.mindgene.d20.common.game.skill.GenericSkill;
+import com.mindgene.d20.common.game.skill.GenericSkillTemplate;
+import com.mindgene.d20.common.game.skill.MalformedSkillException;
+import com.mindgene.d20.common.game.skill.SkillBinder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -83,7 +87,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         parseClasses(ct, svc);
         parseArmor(ct);
         parseFeats(ct);
-        parseSkills(ct);
+        parseSkills(ct, svc);
         return ct;
     }
 
@@ -150,6 +154,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         _ac[1] = (byte) getCombat().getArmorBonus();
         _ac[2] = (byte) getCombat().getShieldBonus();
         _ac[3] += (byte) getCombat().getDeflection();
+        // TODO : class & misc are missing
         _ac[4] += (byte) getCombat().getClassBonus();
         _ac[4] += (byte) getCombat().getMisc();
         _ac[5] += (byte) getCombat().getDodgeBonus();
@@ -173,8 +178,38 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         ct.getFeats().setFeats(feats.toArray(new GenericFeat[0]));
     }
 
-    public void parseSkills(CreatureTemplate ct) {
+    public void parseSkills(CreatureTemplate ct, CreatureImportServices svc) {
 
+        SkillBinder binder = svc.accessSkills();
+        ArrayList<GenericSkill> skillList = new ArrayList<GenericSkill>();
+        List<Skill> skills = getMisc().getSkills();
+
+        for(Skill skill: skills) {
+            String skillName = skill.getName();
+            Short skillRanks = (short) skill.getRanks();
+            Short skillMisc = (short) skill.getBonus();
+            GenericSkillTemplate skillTemplate = binder.accessSkill(skillName);
+
+            if (null != skillTemplate) {
+                skillList.add(new GenericSkill(skillTemplate, skillRanks, skillMisc));
+            } else {
+                try {
+                    skillTemplate = new GenericSkillTemplate(skillName);
+                    String abilityName = skill.getAttribute();
+                    for (byte i = 0; i < D20Rules.Ability.NAMES.length; i++) {
+                        if (abilityName.equals(D20Rules.Ability.NAMES[i])) {
+                            skillTemplate.setAbility(i);
+                        }
+                    }
+                    skillList.add(new GenericSkill(skillTemplate, skillRanks, skillMisc));
+                    ct.addToNotes("skill not found: " + skillName);
+                } catch (MalformedSkillException mse) {
+                    ct.addToNotes("skill not found: " + skillName);
+                }
+            }
+
+        }
+        ct.getSkills().setSkills(skillList.toArray(new GenericSkill[skillList.size()]));
     }
 
     private static void defaultToFighter1(CreatureTemplate ctr, ArrayList<GenericCreatureClass> classes,

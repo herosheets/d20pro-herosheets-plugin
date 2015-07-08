@@ -49,7 +49,7 @@ public class HeroSheetsCharacterTest {
 
             @Override
             public SkillBinder accessSkills() {
-                return null;
+                return new SkillBinder();
             }
 
             @Override
@@ -74,6 +74,7 @@ public class HeroSheetsCharacterTest {
             Assert.assertEquals("combat dex bonus", character.getCombat().getBab(), 3);
             Assert.assertEquals("levels", character.getMisc().getLevels().size(), 1);
             Assert.assertEquals("feats", character.getMisc().getFeats().size(), 7);
+            Assert.assertEquals("skills", character.getMisc().getSkills().size(), 1);
             character.toCreatureTemplate(svc);
         } catch (IOException e) {
             System.out.println(e);
