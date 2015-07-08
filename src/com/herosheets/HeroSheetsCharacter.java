@@ -11,8 +11,11 @@ import com.mindgene.d20.common.creature.CreatureTemplate;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassBinder;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassNotInstalledException;
 import com.mindgene.d20.common.game.creatureclass.GenericCreatureClass;
+import com.mindgene.d20.common.game.feat.Feat_InitModifier;
+import com.mindgene.d20.common.game.feat.GenericFeat;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
 public final class HeroSheetsCharacter implements java.io.Serializable {
@@ -152,6 +155,26 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         _ac[5] += (byte) getCombat().getDodgeBonus();
 
         ct.setAC(_ac);
+    }
+
+    public void parseFeats(CreatureTemplate ct) {
+
+        ArrayList<GenericFeat> feats = new ArrayList<>();
+        List<Feat> herosheetsFeats = getMisc().getFeats();
+        for (Feat feat: herosheetsFeats) {
+            String nameOfFeat = feat.getName();
+            if (Feat_InitModifier.IMPROVED_INIT.equalsIgnoreCase(nameOfFeat)) {
+                feats.add(Feat_InitModifier.buildStandard());
+            } else {
+                feats.add(new GenericFeat(nameOfFeat));
+            }
+        }
+
+        ct.getFeats().setFeats(feats.toArray(new GenericFeat[0]));
+    }
+
+    public void parseSkills(CreatureTemplate ct) {
+
     }
 
     private static void defaultToFighter1(CreatureTemplate ctr, ArrayList<GenericCreatureClass> classes,

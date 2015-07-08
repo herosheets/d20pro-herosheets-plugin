@@ -11,6 +11,7 @@ public final class Misc implements java.io.Serializable {
 
     private final Speed speed;
     private final List<Level> levels;
+    private final List<Feat> feats;
 
     public Speed getSpeed() {
         return speed;
@@ -23,11 +24,17 @@ public final class Misc implements java.io.Serializable {
     public List<Level> getLevels() {
         return levels;
     }
+    public List<Feat> getFeats() {
+        return feats;
+    }
+
 
     @JsonCreator
     public Misc(@JsonProperty("speed") final Speed speed,
-                @JsonProperty("levels") final List<Level> levels) {
+                @JsonProperty("levels") final List<Level> levels,
+                @JsonProperty("feats") final List<Feat> feats) {
         this.speed = speed;
         this.levels = levels;
+        this.feats = feats;
     }
 }

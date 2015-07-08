@@ -73,6 +73,7 @@ public class HeroSheetsCharacterTest {
             Assert.assertEquals("hit die", character.getCharacter().getHitDice(), "3");
             Assert.assertEquals("combat dex bonus", character.getCombat().getBab(), 3);
             Assert.assertEquals("levels", character.getMisc().getLevels().size(), 1);
+            Assert.assertEquals("feats", character.getMisc().getFeats().size(), 7);
             character.toCreatureTemplate(svc);
         } catch (IOException e) {
             System.out.println(e);
