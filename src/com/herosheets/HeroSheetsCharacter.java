@@ -1,5 +1,6 @@
 package com.herosheets;
 
+import com.d20pro.plugin.api.CreatureImportServices;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -7,6 +8,11 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.mindgene.d20.common.D20Rules;
 import com.mindgene.d20.common.creature.CreatureSpeeds;
 import com.mindgene.d20.common.creature.CreatureTemplate;
+import com.mindgene.d20.common.game.creatureclass.CreatureClassBinder;
+import com.mindgene.d20.common.game.creatureclass.CreatureClassNotInstalledException;
+import com.mindgene.d20.common.game.creatureclass.GenericCreatureClass;
+
+import java.util.ArrayList;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
 public final class HeroSheetsCharacter implements java.io.Serializable {
@@ -66,11 +72,12 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         return this.uuid;
     }
 
-    public CreatureTemplate toCreatureTemplate() {
+    public CreatureTemplate toCreatureTemplate(CreatureImportServices svc) {
         CreatureTemplate ct = new CreatureTemplate();
         parseBasics(ct);
         parseAttributes(ct);
         parseSaves(ct);
+        parseClasses(ct, svc);
         return ct;
     }
 
@@ -104,6 +111,39 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
             String name = D20Rules.Save.NAMES[i];
             int score = getSave(name);
             ct.setSave(i, (byte) score);
+        }
+    }
+
+    public void parseClasses(CreatureTemplate ct, CreatureImportServices svc) {
+        CreatureClassBinder binder = svc.accessClasses();
+        ArrayList<GenericCreatureClass> classList = new ArrayList<GenericCreatureClass>();
+        for (Level l: misc.getLevels()) {
+            byte level = (byte) l.getRank();
+            String nameOfClass = l.getClassname();
+            try {
+                GenericCreatureClass aClass = new GenericCreatureClass(binder.accessClass(nameOfClass));
+                aClass.setCreature(ct);
+                aClass.setLevel(level);
+                classList.add(aClass);
+            } catch (CreatureClassNotInstalledException cclnie) {
+                ct.addToErrorLog("Unable to import: " + nameOfClass + " " + level + " :" + cclnie.getMessage());
+                defaultToFighter1(ct, classList, binder, level);
+            }
+        }
+
+        ct.getClasses().assignClasses(classList);
+    }
+
+    private static void defaultToFighter1(CreatureTemplate ctr, ArrayList<GenericCreatureClass> classes,
+                                          CreatureClassBinder binder, int level) {
+        try {
+            ctr.addToErrorLog("Defaulting to Fighter");
+            GenericCreatureClass fighter = new GenericCreatureClass(binder.accessClass("Fighter"));
+            fighter.setLevel((byte) level);
+            fighter.setCreature(ctr);
+            classes.add(fighter);
+        } catch (CreatureClassNotInstalledException cclnie) {
+            ctr.addToErrorLog("Fighter class not found, skipping class");
         }
     }
 

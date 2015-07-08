@@ -48,7 +48,7 @@ public class CreatureImportPlugin_HeroSheets implements ImportCreaturePlugin {
 		ObjectMapper mapper = new ObjectMapper(); // can reuse, share globally
 		try {
 			HeroSheetsCharacter character = mapper.readValue(file, HeroSheetsCharacter.class);
-			CreatureTemplate creature = character.toCreatureTemplate();
+			CreatureTemplate creature = character.toCreatureTemplate(svc);
 			return creature;
 		} catch (IOException e) {
 			return null;
