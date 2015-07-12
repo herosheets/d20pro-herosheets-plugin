@@ -44,7 +44,6 @@ public class HeroSheetsCharacterTest {
             @Override
             public CreatureClassBinder accessClasses() {
                 return new CreatureClassBinder(accessSpells());
-
             }
 
             @Override
@@ -54,7 +53,7 @@ public class HeroSheetsCharacterTest {
 
             @Override
             public SpellBinder accessSpells() {
-                return null;
+                return new SpellBinder();
             }
 
             @Override
@@ -75,6 +74,19 @@ public class HeroSheetsCharacterTest {
             Assert.assertEquals("levels", character.getMisc().getLevels().size(), 1);
             Assert.assertEquals("feats", character.getMisc().getFeats().size(), 7);
             Assert.assertEquals("skills", character.getMisc().getSkills().size(), 1);
+            character.toCreatureTemplate(svc);
+        } catch (IOException e) {
+            System.out.println(e);
+            assert false;
+        }
+    }
+
+    @Test
+    public void testLilRedHotDog() {
+        file = new File("wizardly.json");
+        try {
+            HeroSheetsCharacter character = mapper.readValue(file, HeroSheetsCharacter.class);
+            Assert.assertEquals("character name", character.getCharacter().getCharacterName(), "lilredhotdog");
             character.toCreatureTemplate(svc);
         } catch (IOException e) {
             System.out.println(e);

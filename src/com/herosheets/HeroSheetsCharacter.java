@@ -1,6 +1,7 @@
 package com.herosheets;
 
 import com.d20pro.plugin.api.CreatureImportServices;
+import com.d20pro.plugin.api.ImportCreatureException;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -8,6 +9,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.mindgene.d20.common.D20Rules;
 import com.mindgene.d20.common.creature.CreatureSpeeds;
 import com.mindgene.d20.common.creature.CreatureTemplate;
+import com.mindgene.d20.common.creature.capability.CreatureCapability_SpellCaster;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassBinder;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassNotInstalledException;
 import com.mindgene.d20.common.game.creatureclass.GenericCreatureClass;
@@ -17,6 +19,8 @@ import com.mindgene.d20.common.game.skill.GenericSkill;
 import com.mindgene.d20.common.game.skill.GenericSkillTemplate;
 import com.mindgene.d20.common.game.skill.MalformedSkillException;
 import com.mindgene.d20.common.game.skill.SkillBinder;
+import com.mindgene.d20.common.game.spell.SpellBinder;
+import com.mindgene.d20.common.importer.ImportedSpell;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,13 +50,20 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         return saves;
     }
 
+    public Spells getSpells() {
+        return spells;
+    }
+
+    public Spellbook getSpellbook() {
+        return spellbooks;
+    }
     private final Combat combat;
     private final Misc misc;
     private final int id;
     private final String uuid;
     private final Attributes attributes;
-
-
+    private final Spells spells;
+    private final Spellbook spellbooks;
     private final SavingThrows saves;
 
     @JsonCreator
@@ -63,7 +74,9 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
             @JsonProperty("combat") final Combat combat,
             @JsonProperty("misc") final Misc misc,
             @JsonProperty("attributes") final Attributes attributes,
-            @JsonProperty("saves") final SavingThrows saves) {
+            @JsonProperty("saves") final SavingThrows saves,
+            @JsonProperty("spells") final Spells spells,
+            @JsonProperty("spellbooks") final Spellbook spellbooks) {
         this.id = id;
         this.uuid = uuid;
         this.character = character;
@@ -71,6 +84,8 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         this.misc = misc;
         this.attributes = attributes;
         this.saves = saves;
+        this.spells = spells;
+        this.spellbooks = spellbooks;
     }
 
     /* Get the integer value. Jackson will use this during serialization. */
@@ -88,6 +103,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         parseArmor(ct);
         parseFeats(ct);
         parseSkills(ct, svc);
+        parseSpells(ct, svc);
         return ct;
     }
 
@@ -211,6 +227,42 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         }
         ct.getSkills().setSkills(skillList.toArray(new GenericSkill[skillList.size()]));
     }
+
+    public void parseSpells(CreatureTemplate ct, CreatureImportServices svc)  {
+
+        String[] classes = {"bard", "cleric", "druid", "paladin", "ranger", "wizard"};
+
+        for (String spellListClass : classes) {
+            CreatureCapability_SpellCaster casting = ct.extractSpellCasting(spellListClass);
+
+            if (getSpellbook() != null) {
+                Spell[][] spells = getSpellbook().getSpellsForClassName(spellListClass);
+                ArrayList<ImportedSpell> spellList = getSpellsForClass(svc, ct, spells, spellListClass, null);
+
+                if (casting != null && spellList.size() > 0) {
+                    casting.importSpellsKnown(spellList.toArray(new ImportedSpell[spellList.size()]));
+                    casting.importSpellsMemorized(spellList.toArray(new ImportedSpell[spellList.size()]));
+                }
+            }
+        }
+    }
+
+    public static ArrayList<ImportedSpell> getSpellsForClass(CreatureImportServices svc, CreatureTemplate ct, Spell[][] spells,
+                                                             String spellClassName, String domainName)  {
+
+        SpellBinder binder = svc.accessSpells();
+        ArrayList<ImportedSpell> spellList = new ArrayList<>();
+
+        for( int i = 0; i < 10; i++) {
+            for (Spell spell: spells[i]) {
+                spellList.add(new ImportedSpell(spell.getName(), i, 1));
+            }
+        }
+
+        return spellList;
+    }
+
+
 
     private static void defaultToFighter1(CreatureTemplate ctr, ArrayList<GenericCreatureClass> classes,
                                           CreatureClassBinder binder, int level) {

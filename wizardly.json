@@ -1,0 +1,3069 @@
+{
+  "id": 219,
+  "uuid": null,
+  "character": {
+    "state": "complete",
+    "user_id": 1,
+    "alignment": "Chaotic Good",
+    "level_string": null,
+    "id": 219,
+    "race_str": "Gnome",
+    "name": "lilredhotdog",
+    "deity": "Brell Serilis",
+    "gender": "male",
+    "weight": "50",
+    "height": "3\"2",
+    "description": "small in stature, but feisty and temperamental - lilreddingdong roams the land in search of riches and adventures.",
+    "player_name": "lilredhotdog lilreddingdong",
+    "raw_int": 20,
+    "raw_wis": 10,
+    "raw_dex": 10,
+    "raw_con": 12,
+    "raw_cha": 10,
+    "raw_str": 10,
+    "uuid": null,
+    "skills": {
+      "acrobatics": {
+        "trained_rank": 0
+      },
+      "appraise": {
+        "trained_rank": 0
+      },
+      "bluff": {
+        "trained_rank": 0
+      },
+      "climb": {
+        "trained_rank": 0
+      },
+      "diplomacy": {
+        "trained_rank": 0
+      },
+      "disable_device": {
+        "trained_rank": 0
+      },
+      "disguise": {
+        "trained_rank": 0
+      },
+      "escape_artist": {
+        "trained_rank": 0
+      },
+      "fly": {
+        "trained_rank": 0
+      },
+      "handle_animal": {
+        "trained_rank": 0
+      },
+      "heal": {
+        "trained_rank": 0
+      },
+      "intimidate": {
+        "trained_rank": 0
+      },
+      "knowledge : arcana": {
+        "trained_rank": 0
+      },
+      "knowledge : dungeoneering": {
+        "trained_rank": 0
+      },
+      "knowledge : engineering": {
+        "trained_rank": 0
+      },
+      "knowledge : geography": {
+        "trained_rank": 0
+      },
+      "knowledge : history": {
+        "trained_rank": 0
+      },
+      "knowledge : local": {
+        "trained_rank": 0
+      },
+      "knowledge : nature": {
+        "trained_rank": 0
+      },
+      "knowledge : nobility": {
+        "trained_rank": 0
+      },
+      "knowledge : planes": {
+        "trained_rank": 0
+      },
+      "knowledge : religion": {
+        "trained_rank": 0
+      },
+      "linguistics": {
+        "trained_rank": 0
+      },
+      "perception": {
+        "trained_rank": 0
+      },
+      "ride": {
+        "trained_rank": 0
+      },
+      "sense_motive": {
+        "trained_rank": 0
+      },
+      "sleight_of_hand": {
+        "trained_rank": 0
+      },
+      "spellcraft": {
+        "trained_rank": 0
+      },
+      "stealth": {
+        "trained_rank": 0
+      },
+      "survival": {
+        "trained_rank": 0
+      },
+      "swim": {
+        "trained_rank": 0
+      },
+      "use_magic_device": {
+        "trained_rank": 0
+      },
+      "craft : alchemy": {
+        "trained_rank": 0
+      },
+      "craft : armor": {
+        "trained_rank": 0
+      },
+      "craft : baskets": {
+        "trained_rank": 0
+      },
+      "craft : books": {
+        "trained_rank": 0
+      },
+      "craft : bows": {
+        "trained_rank": 0
+      },
+      "craft : calligraphy": {
+        "trained_rank": 0
+      },
+      "craft : carpentry": {
+        "trained_rank": 0
+      },
+      "craft : cloth": {
+        "trained_rank": 0
+      },
+      "craft : clothing": {
+        "trained_rank": 0
+      },
+      "craft : glass": {
+        "trained_rank": 0
+      },
+      "craft : jewelry": {
+        "trained_rank": 0
+      },
+      "craft : leather": {
+        "trained_rank": 0
+      },
+      "craft : locks": {
+        "trained_rank": 0
+      },
+      "craft : paintings": {
+        "trained_rank": 0
+      },
+      "craft : pottery": {
+        "trained_rank": 0
+      },
+      "craft : sculptures": {
+        "trained_rank": 0
+      },
+      "craft : ships": {
+        "trained_rank": 0
+      },
+      "craft : shoes": {
+        "trained_rank": 0
+      },
+      "craft : stonemasonry": {
+        "trained_rank": 0
+      },
+      "craft : traps": {
+        "trained_rank": 0
+      },
+      "craft : weapons": {
+        "trained_rank": 0
+      },
+      "profession : architect": {
+        "trained_rank": 0
+      },
+      "profession : baker": {
+        "trained_rank": 0
+      },
+      "profession : barrister": {
+        "trained_rank": 0
+      },
+      "profession : brewer": {
+        "trained_rank": 0
+      },
+      "profession : butcher": {
+        "trained_rank": 0
+      },
+      "profession : clerk": {
+        "trained_rank": 0
+      },
+      "profession : cook": {
+        "trained_rank": 0
+      },
+      "profession : courtesan": {
+        "trained_rank": 0
+      },
+      "profession : driver": {
+        "trained_rank": 0
+      },
+      "profession : engineer": {
+        "trained_rank": 0
+      },
+      "profession : farmer": {
+        "trained_rank": 0
+      },
+      "profession : fisherman": {
+        "trained_rank": 0
+      },
+      "profession : gambler": {
+        "trained_rank": 0
+      },
+      "profession : gardener": {
+        "trained_rank": 0
+      },
+      "profession : herbalist": {
+        "trained_rank": 0
+      },
+      "profession : innkeeper": {
+        "trained_rank": 0
+      },
+      "profession : librarian": {
+        "trained_rank": 0
+      },
+      "profession : merchant": {
+        "trained_rank": 0
+      },
+      "profession : midwife": {
+        "trained_rank": 0
+      },
+      "profession : miller": {
+        "trained_rank": 0
+      },
+      "profession : miner": {
+        "trained_rank": 0
+      },
+      "profession : porter": {
+        "trained_rank": 0
+      },
+      "profession : sailor": {
+        "trained_rank": 0
+      },
+      "profession : scribe": {
+        "trained_rank": 0
+      },
+      "profession : shepherd": {
+        "trained_rank": 0
+      },
+      "profession : stable master": {
+        "trained_rank": 0
+      },
+      "profession : soldier": {
+        "trained_rank": 0
+      },
+      "profession : tanner": {
+        "trained_rank": 0
+      },
+      "profession : trapper": {
+        "trained_rank": 0
+      },
+      "profession : woodcutter": {
+        "trained_rank": 0
+      },
+      "perform : act": {
+        "trained_rank": 0
+      },
+      "perform : comedy": {
+        "trained_rank": 0
+      },
+      "perform : dance": {
+        "trained_rank": 0
+      },
+      "perform : keyboard": {
+        "trained_rank": 0
+      },
+      "perform : oratory": {
+        "trained_rank": 0
+      },
+      "perform : percussion": {
+        "trained_rank": 0
+      },
+      "perform : sing": {
+        "trained_rank": 0
+      },
+      "perform : string": {
+        "trained_rank": 0
+      },
+      "perform : wind": {
+        "trained_rank": 0
+      }
+    },
+    "hit_points": 86,
+    "size": "Wizard/12*",
+    "age": 123,
+    "hair": "white",
+    "eyes": "blue",
+    "homeland": "Akannon",
+    "languages": [
+      "Common",
+      "Gnome",
+      "Sylvan"
+    ],
+    "preferred_class": "Wizard",
+    "experience": null,
+    "level": null,
+    "money": null,
+    "created_at": "2014-02-11T23:08:21.271Z",
+    "updated_at": "2015-03-31T06:14:26.729Z",
+    "avatar_file_name": null,
+    "avatar_content_type": null,
+    "avatar_file_size": null,
+    "avatar_updated_at": null,
+    "familiar_id": null,
+    "animal_companion_id": null,
+    "companion_stats": {}
+  },
+  "demographics": {
+    "player_name": "lilredhotdog lilreddingdong",
+    "character_name": null,
+    "deity": "Brell Serilis",
+    "gender": "male",
+    "height": "3\"2",
+    "weight": "50",
+    "description": "small in stature, but feisty and temperamental - lilreddingdong roams the land in search of riches and adventures.",
+    "languages": [
+      "Common",
+      "Gnome",
+      "Sylvan"
+    ]
+  },
+  "attributes": {
+    "values": {
+      "strength": 8,
+      "dexterity": 10,
+      "charisma": 12,
+      "wisdom": 10,
+      "constitution": 14,
+      "intelligence": 20
+    },
+    "modifier": {
+      "strength": -1,
+      "dexterity": 0,
+      "charisma": 1,
+      "wisdom": 0,
+      "constitution": 2,
+      "intelligence": 5
+    }
+  },
+  "combat": {
+    "str_bonus": -1,
+    "dex_bonus": 0,
+    "bab": 6,
+    "weapon_finesse": false,
+    "dodge_modifier": 0,
+    "armor_modifier": 0,
+    "deflection_modifier": 0,
+    "armor_ac": 0,
+    "shield_ac": 0,
+    "natural_armor": 0,
+    "size_modifier": 1,
+    "armor_class": 11,
+    "flat_footed_ac": 11,
+    "cmd": 14,
+    "touch_ac": 11,
+    "spell_resistance": [
+      null
+    ],
+    "damage_reduction": [
+      null
+    ],
+    "attacks": [],
+    "cmb": 4
+  },
+  "saves": {
+    "con_modifier": 2,
+    "wis_modifier": 0,
+    "dex_modifier": 0,
+    "base_ref": 4,
+    "base_fort": 4,
+    "base_will": 8,
+    "bonus_ref": 0,
+    "bonus_will": 0,
+    "bonus_fort": 0,
+    "fortitude": 6,
+    "reflex": 4,
+    "will": 8
+  },
+  "misc": {
+    "initiative": 0,
+    "alignment": "Chaotic Good",
+    "speed": {
+      "land_speed": 25,
+      "fly_speed": 25,
+      "climb_speed": 25,
+      "swim_speed": 25,
+      "speed": 25
+    },
+    "hit_points": 86,
+    "feats": [
+      {
+        "name": "",
+        "description": "",
+        "special": null,
+        "type": "",
+        "source": ""
+      },
+      {
+        "name": "Eschew Materials",
+        "description": "Cast spells without material components",
+        "special": null,
+        "type": "General",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Enlarge Spell",
+        "description": "Double spell range",
+        "special": null,
+        "type": "Metamagic",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Combat Casting",
+        "description": "+4 bonus on concentration checks for casting defensively",
+        "special": null,
+        "type": "General",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Fleet",
+        "description": "Your base speed increases by 5 feet",
+        "special": null,
+        "type": "General",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Widen Spell",
+        "description": "Double spell area",
+        "special": null,
+        "type": "Metamagic",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Still Spell",
+        "description": "Cast spell without somatic components",
+        "special": null,
+        "type": "Metamagic",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Scribe Scroll",
+        "description": "Create magic scrolls",
+        "special": null,
+        "type": "Item Creation",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Extend Spell",
+        "description": "Double spell duration",
+        "special": null,
+        "type": "Metamagic",
+        "source": "Pathfinder Core Rulebook"
+      },
+      {
+        "name": "Silent Spell",
+        "description": "Cast spell without verbal components",
+        "special": null,
+        "type": "Metamagic",
+        "source": "Pathfinder Core Rulebook"
+      }
+    ],
+    "class_features": [
+      {
+        "name": "Cantrips",
+        "description": "Wizards can prepare a number of cantrips, or 0-level spells, each day, as noted on Table: Wizard under “Spells per Day.” These spells are cast like any other spell, but they are not expended when cast and may be used again. A wizard can prepare a cantrip from an opposition school, but it uses up two of his available slots (see below).",
+        "type": "WizardFeature",
+        "category": "Ex",
+        "special": null
+      },
+      {
+        "name": "Scribe Spell",
+        "description": "At 1st level, a wizard gains Scribe Scroll as a bonus feat.",
+        "type": "WizardFeature",
+        "category": "Ex",
+        "special": null
+      },
+      {
+        "name": "Arcane Bond: Familiar( Weasel)",
+        "description": "Familiar : Weasel : Master gains a +2 bonus on Reflex saves\nA familiar grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.\n\n      Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.\n\n      If a familiar is dismissed, lost, or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.",
+        "type": "ArcaneBond",
+        "category": "Sp",
+        "special": "Weasel"
+      },
+      {
+        "name": "Intense Spells",
+        "description": "Whenever you cast an evocation spell that deals hit point damage, add 1/2 your wizard level to the damage (minimum +1). This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. This bonus damage is not increased by Empower Spell or similar effects. This damage is of the same type as the spell. At 20th level, whenever you cast an evocation spell you can roll twice to penetrate a creature's spell resistance and take the better result.",
+        "type": "ArcaneSchoolFeature",
+        "category": "Su",
+        "special": null
+      },
+      {
+        "name": "Force Missile",
+        "description": "As a standard action you can unleash a force missile that automatically strikes a foe, as magic missile. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+        "type": "ArcaneSchoolFeature",
+        "category": "Sp",
+        "special": null
+      },
+      {
+        "name": "Evocation School",
+        "description": "Evokers revel in the raw power of magic, and can use it to create and destroy with shocking ease.",
+        "type": "ArcaneSchool",
+        "category": "Sp",
+        "special": "Transmutation School;;Abjuration School"
+      },
+      {
+        "name": "Wizard Bonus Feat",
+        "description": "Extra Feat : Extend Spell",
+        "type": "WizardBonusFeat",
+        "category": "Sp",
+        "special": null
+      },
+      {
+        "name": "Elemental Wall",
+        "description": "At 8th level, you can create a wall of energy that lasts for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like wall of fire.",
+        "type": "ArcaneSchoolFeature",
+        "category": "Sp",
+        "special": null
+      },
+      {
+        "name": "Wizard Bonus Feat",
+        "description": "Extra Feat : Silent Spell",
+        "type": "WizardBonusFeat",
+        "category": "Sp",
+        "special": null
+      }
+    ],
+    "levels": [
+      {
+        "rank": 12,
+        "classname": "Wizard",
+        "heroclass": {
+          "description": "While universalist wizards might study to prepare themselves for any manner of danger, specialist wizards research schools of magic that make them exceptionally skilled within a specific focus. Yet no matter their specialty, all wizards are masters of the impossible and can aid their allies in overcoming any danger.",
+          "skills": [
+            "Appraise (int)",
+            "Craft Armor (int)",
+            "Fly (dex)*",
+            "Linguistics (int)",
+            "Profession - Butcher (wis)",
+            "Spellcraft (int)",
+            "Knowledge - Arcana (int)",
+            "Knowledge - Dungeoneering (int)",
+            "Knowledge - Engineering (int)",
+            "Knowledge - Geography (int)",
+            "Knowledge - History (int)",
+            "Knowledge - Local (int)",
+            "Knowledge - Nature (int)",
+            "Knowledge - Nobility (int)",
+            "Knowledge - Planes (int)",
+            "Knowledge - Religion (int)"
+          ],
+          "skills_per_level": 2,
+          "heroclass_name": "Wizard",
+          "alignment": [
+            "Chaotic Evil",
+            "Chaotic Neutral",
+            "Chaotic Good",
+            "Neutral Evil",
+            "True Neutral",
+            "Neutral Good",
+            "Lawful Evil",
+            "Lawful Neutral",
+            "Lawful Good"
+          ],
+          "starting_wealth": "2d6+10 (70gp average)",
+          "hit_die": "1d6",
+          "bab": [
+            0
+          ],
+          "saves": "Fort: +0, Ref: +0, Will: +2",
+          "features": [
+            "Cantrips ",
+            "Scribe Spell ",
+            "Choose Arcane Bond",
+            "Choose Arcane School"
+          ],
+          "spells": [
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "current_level": 0
+        },
+        "favored": true
+      }
+    ],
+    "total_level": null,
+    "size": "SMALL",
+    "level_string": "Chaotic Good :Wizard/12*",
+    "has_familiar": true,
+    "has_companion": false,
+    "temporary": null,
+    "plugin_skills": [
+      {
+        "name": "acrobatics",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "appraise",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "bluff",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "climb",
+        "attribute": "STR",
+        "rank": 0,
+        "bonus": -1
+      },
+      {
+        "name": "diplomacy",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "disable_device",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "disguise",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "escape_artist",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "fly",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "handle_animal",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "heal",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "intimidate",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "knowledge : Arcana",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Dungeoneering",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Engineering",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Geography",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : History",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Local",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Nature",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Nobility",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Planes",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "knowledge : Religion",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "linguistics",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "perception",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 2
+      },
+      {
+        "name": "ride",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "sense_motive",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "sleight_of_hand",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "spellcraft",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "stealth",
+        "attribute": "DEX",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "survival",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "swim",
+        "attribute": "STR",
+        "rank": 0,
+        "bonus": -1
+      },
+      {
+        "name": "use_magic_device",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "craft : Alchemy",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Armor",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Baskets",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Books",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Bows",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Calligraphy",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Carpentry",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Cloth",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Clothing",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Glass",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Jewelry",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Leather",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Locks",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Paintings",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Pottery",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Sculptures",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Ships",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Shoes",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Stonemasonry",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Traps",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "craft : Weapons",
+        "attribute": "INT",
+        "rank": 0,
+        "bonus": 5
+      },
+      {
+        "name": "profession : Architect",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Baker",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Barrister",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Brewer",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Butcher",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Clerk",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Cook",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Courtesan",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Driver",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Engineer",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Farmer",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Fisherman",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Gambler",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Gardener",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Herbalist",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Innkeeper",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Librarian",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Merchant",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Midwife",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Miller",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Miner",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Porter",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Sailor",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Scribe",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Shepherd",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Stable master",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Soldier",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Tanner",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Trapper",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "profession : Woodcutter",
+        "attribute": "WIS",
+        "rank": 0,
+        "bonus": 0
+      },
+      {
+        "name": "perform : Act",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Comedy",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Dance",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Keyboard",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Oratory",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Percussion",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Sing",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : String",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      },
+      {
+        "name": "perform : Wind",
+        "attribute": "CHA",
+        "rank": 0,
+        "bonus": 1
+      }
+    ]
+  },
+  "skills": {
+    "acrobatics": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "acrobatics",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "appraise": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "appraise",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "bluff": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "bluff",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "climb": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "climb",
+      "trained_rank": 0,
+      "stat_bonus": -1,
+      "misc_bonus": 0,
+      "total_bonus": -1,
+      "attribute": "str"
+    },
+    "diplomacy": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "diplomacy",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "disable_device": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "disable_device",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "disguise": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "disguise",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "escape_artist": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "escape_artist",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "fly": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "fly",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "handle_animal": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "handle_animal",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "heal": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "heal",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "intimidate": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "intimidate",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "knowledge : Arcana": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Arcana",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Dungeoneering": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Dungeoneering",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Engineering": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Engineering",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Geography": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Geography",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : History": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : History",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Local": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Local",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Nature": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Nature",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Nobility": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Nobility",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Planes": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Planes",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "knowledge : Religion": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "knowledge : Religion",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "linguistics": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "linguistics",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "perception": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perception",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 2,
+      "total_bonus": 2,
+      "attribute": "wis"
+    },
+    "ride": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "ride",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "sense_motive": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "sense_motive",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "sleight_of_hand": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "sleight_of_hand",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "spellcraft": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "spellcraft",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "stealth": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "stealth",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "dex"
+    },
+    "survival": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "survival",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "swim": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "swim",
+      "trained_rank": 0,
+      "stat_bonus": -1,
+      "misc_bonus": 0,
+      "total_bonus": -1,
+      "attribute": "str"
+    },
+    "use_magic_device": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "use_magic_device",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "craft : Alchemy": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Alchemy",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Armor": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Armor",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Baskets": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Baskets",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Books": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Books",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Bows": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Bows",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Calligraphy": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Calligraphy",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Carpentry": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Carpentry",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Cloth": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Cloth",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Clothing": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Clothing",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Glass": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Glass",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Jewelry": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Jewelry",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Leather": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Leather",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Locks": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Locks",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Paintings": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Paintings",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Pottery": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Pottery",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Sculptures": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Sculptures",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Ships": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Ships",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Shoes": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Shoes",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Stonemasonry": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Stonemasonry",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Traps": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Traps",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "craft : Weapons": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "craft : Weapons",
+      "trained_rank": 0,
+      "stat_bonus": 5,
+      "misc_bonus": 0,
+      "total_bonus": 5,
+      "attribute": "int"
+    },
+    "profession : Architect": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Architect",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Baker": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Baker",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Barrister": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Barrister",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Brewer": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Brewer",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Butcher": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Butcher",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Clerk": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Clerk",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Cook": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Cook",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Courtesan": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Courtesan",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Driver": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Driver",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Engineer": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Engineer",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Farmer": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Farmer",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Fisherman": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Fisherman",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Gambler": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Gambler",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Gardener": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Gardener",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Herbalist": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Herbalist",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Innkeeper": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Innkeeper",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Librarian": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Librarian",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Merchant": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Merchant",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Midwife": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Midwife",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Miller": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Miller",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Miner": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Miner",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Porter": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Porter",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Sailor": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Sailor",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Scribe": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Scribe",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Shepherd": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Shepherd",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Stable master": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Stable master",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Soldier": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Soldier",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Tanner": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Tanner",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Trapper": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Trapper",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "profession : Woodcutter": {
+      "class_skill": true,
+      "ac_penalty": 0,
+      "name": "profession : Woodcutter",
+      "trained_rank": 0,
+      "stat_bonus": 0,
+      "misc_bonus": 0,
+      "total_bonus": 0,
+      "attribute": "wis"
+    },
+    "perform : Act": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Act",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Comedy": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Comedy",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Dance": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Dance",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Keyboard": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Keyboard",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Oratory": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Oratory",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Percussion": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Percussion",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Sing": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Sing",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : String": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : String",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    },
+    "perform : Wind": {
+      "class_skill": false,
+      "ac_penalty": 0,
+      "name": "perform : Wind",
+      "trained_rank": 0,
+      "stat_bonus": 1,
+      "misc_bonus": 0,
+      "total_bonus": 1,
+      "attribute": "cha"
+    }
+  },
+  "spells": {
+    "sorcerer_spells": [],
+    "Cleric": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Wizard": [
+      4,
+      6,
+      5,
+      5,
+      4,
+      4,
+      2,
+      0,
+      0,
+      0
+    ],
+    "Druid": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Paladin": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Ranger": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Bard": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "spellbooks": {
+    "Wizard": {
+      "0": [
+        {
+          "id": 350,
+          "name": "Mending",
+          "spell_level": "bard 0, cleric 0, druid 0, sorcerer/wizard 0, summoner 0, witch 0, summoner 0, witch 0",
+          "effect": null,
+          "targets": "one object of up to 1 lb./level",
+          "duration": "instantaneous",
+          "range": "10 ft.",
+          "saving_throw": "Will negates (harmless, object)",
+          "spell_resistance": "yes (harmless, object)",
+          "sorcerer_level": 0,
+          "description": "This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 0,
+            "Sorcerer": 0,
+            "Cleric": 0,
+            "Druid": 0,
+            "Ranger": null,
+            "Bard": 0,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 0,
+            "Witch": 0,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 24,
+          "name": "Arcane Mark",
+          "spell_level": "sorcerer/wizard 0, summoner 0, magus 0",
+          "effect": "one personal rune or mark, all of which must fit within 1 sq. ft.",
+          "targets": null,
+          "duration": "permanent",
+          "range": "touch",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 0,
+          "description": "This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable. See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an erase spell. If an arcane mark is placed on a living being, the effect gradually fades in about a month. Arcane mark must be cast on an object prior to casting instant summons on the same object (see that spell DESCRIPTION for details).",
+          "school": "universal",
+          "subschool": null,
+          "levels": {
+            "Wizard": 0,
+            "Sorcerer": 0,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 0,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 0
+          }
+        },
+        {
+          "id": 212,
+          "name": "Flare",
+          "spell_level": "bard 0, druid 0, sorcerer/wizard 0, magus 0",
+          "effect": "burst of light",
+          "targets": null,
+          "duration": "instantaneous",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "Fortitude negates",
+          "spell_resistance": "yes",
+          "sorcerer_level": 0,
+          "description": "This cantrip creates a burst of light. If you cause the light to burst in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 0,
+            "Sorcerer": 0,
+            "Cleric": null,
+            "Druid": 0,
+            "Ranger": null,
+            "Bard": 0,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 0
+          }
+        },
+        {
+          "id": 322,
+          "name": "Mage Hand",
+          "spell_level": "bard 0, sorcerer/wizard 0, summoner 0, magus 0",
+          "effect": null,
+          "targets": "one nonmagical, unattended object weighing up to 5 lbs.",
+          "duration": "concentration",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 0,
+          "description": "You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 0,
+            "Sorcerer": 0,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 0,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 0,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 0
+          }
+        }
+      ],
+      "1": [
+        {
+          "id": 57,
+          "name": "Burning Hands",
+          "spell_level": "sorcerer/wizard 1, witch 1, magus 1",
+          "effect": null,
+          "targets": null,
+          "duration": "instantaneous",
+          "range": "15 ft.",
+          "saving_throw": "Reflex half",
+          "spell_resistance": "yes",
+          "sorcerer_level": 1,
+          "description": "A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 1,
+            "Inquisitor": null,
+            "Magus": 1
+          }
+        },
+        {
+          "id": 80,
+          "name": "Color Spray",
+          "spell_level": "sorcerer/wizard 1, magus 1",
+          "effect": null,
+          "targets": null,
+          "duration": "instantaneous; see text",
+          "range": "15 ft.",
+          "saving_throw": "Will negates",
+          "spell_resistance": "yes",
+          "sorcerer_level": 1,
+          "description": "A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD. 2 HD or less: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.) 3 or 4 HD: The creature is blinded and stunned for 1d4 rounds, then stunned for 1 round. 5 or more HD: The creature is stunned for 1 round. Sightless creatures are not affected by color spray.",
+          "school": "illusion",
+          "subschool": "pattern",
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 1
+          }
+        },
+        {
+          "id": 337,
+          "name": "Magic Missile",
+          "spell_level": "sorcerer/wizard 1, magus 1",
+          "effect": null,
+          "targets": "up to five creatures, no two of which can be more than 15 ft. apart",
+          "duration": "instantaneous",
+          "range": "medium (100 ft. + 10 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "yes",
+          "sorcerer_level": 1,
+          "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. The missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell. For every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 1
+          }
+        },
+        {
+          "id": 321,
+          "name": "Mage Armor",
+          "spell_level": "sorcerer/wizard 1, summoner 1, witch 1",
+          "effect": null,
+          "targets": "creature touched",
+          "duration": "1 hour/level",
+          "range": "touch",
+          "saving_throw": "Will negates (harmless)",
+          "spell_resistance": "no",
+          "sorcerer_level": 1,
+          "description": "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC. Unlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.",
+          "school": "conjuration",
+          "subschool": "creation",
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 1,
+            "Witch": 1,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 337,
+          "name": "Magic Missile",
+          "spell_level": "sorcerer/wizard 1, magus 1",
+          "effect": null,
+          "targets": "up to five creatures, no two of which can be more than 15 ft. apart",
+          "duration": "instantaneous",
+          "range": "medium (100 ft. + 10 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "yes",
+          "sorcerer_level": 1,
+          "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. The missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell. For every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 1
+          }
+        },
+        {
+          "id": 248,
+          "name": "Grease",
+          "spell_level": "bard 1, sorcerer/wizard 1, summoner 1, magus 1",
+          "effect": null,
+          "targets": "one object or 10-ft. square",
+          "duration": "1 min./level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "see text",
+          "spell_resistance": "no",
+          "sorcerer_level": 1,
+          "description": "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed. The spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled.",
+          "school": "conjuration",
+          "subschool": "creation",
+          "levels": {
+            "Wizard": 1,
+            "Sorcerer": 1,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 1,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 1,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 1
+          }
+        }
+      ],
+      "2": [
+        {
+          "id": 1,
+          "name": "Acid Arrow",
+          "spell_level": "sorcerer/wizard 2, magus 2",
+          "effect": "one arrow of acid",
+          "targets": null,
+          "duration": "1 round + 1 round per three levels",
+          "range": "long (400 ft. + 40 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 2,
+          "description": "An arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.",
+          "school": "conjuration",
+          "subschool": "creation",
+          "levels": {
+            "Wizard": 2,
+            "Sorcerer": 2,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 2
+          }
+        },
+        {
+          "id": 1,
+          "name": "Acid Arrow",
+          "spell_level": "sorcerer/wizard 2, magus 2",
+          "effect": "one arrow of acid",
+          "targets": null,
+          "duration": "1 round + 1 round per three levels",
+          "range": "long (400 ft. + 40 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 2,
+          "description": "An arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.",
+          "school": "conjuration",
+          "subschool": "creation",
+          "levels": {
+            "Wizard": 2,
+            "Sorcerer": 2,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 2
+          }
+        },
+        {
+          "id": 530,
+          "name": "Summon Monster II",
+          "spell_level": "bard 2, cleric 2, sorcerer/wizard 2, summoner 2, witch 2, antipaladin 2",
+          "effect": "one summoned creature",
+          "targets": null,
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 2,
+          "description": "This spell functions like summon monster I, except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.",
+          "school": "conjuration",
+          "subschool": "summoning",
+          "levels": {
+            "Wizard": 2,
+            "Sorcerer": 2,
+            "Cleric": 2,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 2,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 2,
+            "Witch": 2,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 530,
+          "name": "Summon Monster II",
+          "spell_level": "bard 2, cleric 2, sorcerer/wizard 2, summoner 2, witch 2, antipaladin 2",
+          "effect": "one summoned creature",
+          "targets": null,
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 2,
+          "description": "This spell functions like summon monster I, except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.",
+          "school": "conjuration",
+          "subschool": "summoning",
+          "levels": {
+            "Wizard": 2,
+            "Sorcerer": 2,
+            "Cleric": 2,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 2,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 2,
+            "Witch": 2,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 1,
+          "name": "Acid Arrow",
+          "spell_level": "sorcerer/wizard 2, magus 2",
+          "effect": "one arrow of acid",
+          "targets": null,
+          "duration": "1 round + 1 round per three levels",
+          "range": "long (400 ft. + 40 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 2,
+          "description": "An arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.",
+          "school": "conjuration",
+          "subschool": "creation",
+          "levels": {
+            "Wizard": 2,
+            "Sorcerer": 2,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 2
+          }
+        }
+      ],
+      "3": [
+        {
+          "id": 256,
+          "name": "Haste",
+          "spell_level": "alchemist 3, bard 3, magus 3, sorcerer/wizard 3, summoner 2",
+          "effect": null,
+          "targets": "one creature/level, no two of which can be more than 30 ft. apart",
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "Fortitude negates (harmless)",
+          "spell_resistance": "yes (harmless)",
+          "sorcerer_level": 3,
+          "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects. When making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.) A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters slow.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 3,
+            "Sorcerer": 3,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 3,
+            "Paladin": null,
+            "Alchemist": 3,
+            "Summoner": 2,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 3
+          }
+        },
+        {
+          "id": 215,
+          "name": "Fly",
+          "spell_level": "sorcerer/wizard 3, alchemist 3, summoner 3, witch 3, magus 3",
+          "effect": null,
+          "targets": "creature touched",
+          "duration": "1 min./level",
+          "range": "touch",
+          "saving_throw": "Will negates (harmless)",
+          "spell_resistance": "yes (harmless)",
+          "sorcerer_level": 3,
+          "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus on Fly skill checks equal to 1/2 your caster level. Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends safely in this way if the fly spell is dispelled, but not if it is negated by an antimagic field.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 3,
+            "Sorcerer": 3,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": 3,
+            "Summoner": 3,
+            "Witch": 3,
+            "Inquisitor": null,
+            "Magus": 3
+          }
+        },
+        {
+          "id": 256,
+          "name": "Haste",
+          "spell_level": "alchemist 3, bard 3, magus 3, sorcerer/wizard 3, summoner 2",
+          "effect": null,
+          "targets": "one creature/level, no two of which can be more than 30 ft. apart",
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "Fortitude negates (harmless)",
+          "spell_resistance": "yes (harmless)",
+          "sorcerer_level": 3,
+          "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects. When making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.) A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters slow.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 3,
+            "Sorcerer": 3,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 3,
+            "Paladin": null,
+            "Alchemist": 3,
+            "Summoner": 2,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 3
+          }
+        },
+        {
+          "id": 314,
+          "name": "Lightning Bolt",
+          "spell_level": "sorcerer/wizard 3, witch 3, magus 3",
+          "effect": null,
+          "targets": null,
+          "duration": "instantaneous",
+          "range": "120 ft.",
+          "saving_throw": "Reflex half",
+          "spell_resistance": "yes",
+          "sorcerer_level": 3,
+          "description": "You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips. The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 3,
+            "Sorcerer": 3,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 3,
+            "Inquisitor": null,
+            "Magus": 3
+          }
+        },
+        {
+          "id": 207,
+          "name": "Fireball",
+          "spell_level": "sorcerer/wizard 3, magus 3",
+          "effect": null,
+          "targets": null,
+          "duration": "instantaneous",
+          "range": "long (400 ft. + 40 ft./level)",
+          "saving_throw": "Reflex half",
+          "spell_resistance": "yes",
+          "sorcerer_level": 3,
+          "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure. You point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball at that point. An early impact results in an early detonation. If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must \"hit\" the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely. The fireball sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 3,
+            "Sorcerer": 3,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 3
+          }
+        }
+      ],
+      "4": [
+        {
+          "id": 280,
+          "name": "Ice Storm",
+          "spell_level": "druid 4, sorcerer/wizard 4, witch 4, magus 4",
+          "effect": null,
+          "targets": null,
+          "duration": "1 round/level",
+          "range": "long (400 ft. + 40 ft./level)",
+          "saving_throw": "none",
+          "spell_resistance": "yes",
+          "sorcerer_level": 4,
+          "description": "Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy snow and sleet rains down in the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the snow and hail disappear, leaving no aftereffects (other than the damage dealt).",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 4,
+            "Sorcerer": 4,
+            "Cleric": null,
+            "Druid": 4,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 4,
+            "Inquisitor": null,
+            "Magus": 4
+          }
+        },
+        {
+          "id": 532,
+          "name": "Summon Monster IV",
+          "spell_level": "bard 4, cleric 4, sorcerer/wizard 4, summoner 3, witch 4, antipaladin 4",
+          "effect": "one summoned creature",
+          "targets": null,
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 4,
+          "description": "This spell functions like summon monster I, except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
+          "school": "conjuration",
+          "subschool": "summoning",
+          "levels": {
+            "Wizard": 4,
+            "Sorcerer": 4,
+            "Cleric": 4,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 4,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 3,
+            "Witch": 4,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 89,
+          "name": "Confusion",
+          "spell_level": "bard 3, sorcerer/wizard 4, witch 4",
+          "effect": null,
+          "targets": "all creatures in a 15-ft.-radius burst",
+          "duration": "1 round/level",
+          "range": "medium (100 ft. + 10 ft./level)",
+          "saving_throw": "Will negates",
+          "spell_resistance": "yes",
+          "sorcerer_level": 4,
+          "description": "This spell causes confusion in the targets, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round. d% Behavior 01-25 Act normally 26-50 Do nothing but babble incoherently 51-75 Deal 1d8 points of damage + Str modifier to self with item in hand 76-100 Attack nearest creature (for this purpose, a familiar counts as part of the subject's self) A confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).",
+          "school": "enchantment",
+          "subschool": "compulsion",
+          "levels": {
+            "Wizard": 4,
+            "Sorcerer": 4,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 3,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 4,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 381,
+          "name": "Phantasmal Killer",
+          "spell_level": "sorcerer/wizard 4, witch 4, magus 4",
+          "effect": null,
+          "targets": "one living creature",
+          "duration": "instantaneous",
+          "range": "medium (100 ft. + 10 ft./level)",
+          "saving_throw": "Will disbelief, then Fortitude partial; see text",
+          "spell_resistance": "yes",
+          "sorcerer_level": 4,
+          "description": "You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject's subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell's subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 3d6 points of damage. If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.",
+          "school": "illusion",
+          "subschool": "phantasm",
+          "levels": {
+            "Wizard": 4,
+            "Sorcerer": 4,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 4,
+            "Inquisitor": null,
+            "Magus": 4
+          }
+        }
+      ],
+      "5": [
+        {
+          "id": 376,
+          "name": "Passwall",
+          "spell_level": "sorcerer/wizard 5",
+          "effect": "5-ft.-by-8-ft. opening, 10 ft. deep plus 5 ft. deep per three additional levels",
+          "targets": null,
+          "duration": "1 hour/level",
+          "range": "touch",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 5,
+          "description": "You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the wall's thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends, creatures within the passage are ejected out the nearest exit. If someone dispels the passwall or you dismiss it, creatures in the passage are ejected out the far exit, if there is one, or out the sole exit if there is only one.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 5,
+            "Sorcerer": 5,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 598,
+          "name": "Wall of Force",
+          "spell_level": "sorcerer/wizard 5, magus 5",
+          "effect": "wall whose area is up to one 10-ft. square/level",
+          "targets": null,
+          "duration": "1 round /level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 5,
+          "description": "A wall of force creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A wall of force is immune to dispel magic, although a mage's disjunction can still dispel it. A wall of force can be damaged by spells as normal, except for disintegrate, which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a wall of force has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a sphere of annihilation or rod of cancellation instantly destroys a wall of force. Breath weapons and spells cannot pass through a wall of force in either direction, although dimension door, teleport, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a wall of force. The caster can form the wall into a flat, vertical plane whose area is up to one 10-foot square per level. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature, the spell fails. Wall of force can be made permanent with a permanency spell.",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 5,
+            "Sorcerer": 5,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 5
+          }
+        },
+        {
+          "id": 533,
+          "name": "Summon Monster V",
+          "spell_level": "bard 5, cleric 5, sorcerer/wizard 5, summoner 4, witch 5",
+          "effect": "one summoned creature",
+          "targets": null,
+          "duration": "1 round/level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "none",
+          "spell_resistance": "no",
+          "sorcerer_level": 5,
+          "description": "This spell functions like summon monster I, except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
+          "school": "conjuration",
+          "subschool": "summoning",
+          "levels": {
+            "Wizard": 5,
+            "Sorcerer": 5,
+            "Cleric": 5,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": 5,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 4,
+            "Witch": 5,
+            "Inquisitor": null,
+            "Magus": null
+          }
+        },
+        {
+          "id": 88,
+          "name": "Cone of Cold",
+          "spell_level": "sorcerer/wizard 5, witch 6, magus 5",
+          "effect": null,
+          "targets": null,
+          "duration": "instantaneous",
+          "range": "60 ft.",
+          "saving_throw": "Reflex half",
+          "spell_resistance": "yes",
+          "sorcerer_level": 5,
+          "description": "Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).",
+          "school": "evocation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 5,
+            "Sorcerer": 5,
+            "Cleric": null,
+            "Druid": null,
+            "Ranger": null,
+            "Bard": null,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": null,
+            "Witch": 6,
+            "Inquisitor": null,
+            "Magus": 5
+          }
+        }
+      ],
+      "6": [
+        {
+          "id": 63,
+          "name": "Cat's Grace, Mass",
+          "spell_level": "bard 6, druid 6, sorcerer/wizard 6, summoner 4, magus 6",
+          "effect": null,
+          "targets": "one creature/level, no two of which can be more than 30 ft. apart",
+          "duration": "1 min./level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "Will negates (harmless)",
+          "spell_resistance": "yes",
+          "sorcerer_level": 6,
+          "description": "This spell functions like cat's grace, except that it affects multiple creatures.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 6,
+            "Sorcerer": 6,
+            "Cleric": null,
+            "Druid": 6,
+            "Ranger": null,
+            "Bard": 6,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 4,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 6
+          }
+        },
+        {
+          "id": 63,
+          "name": "Cat's Grace, Mass",
+          "spell_level": "bard 6, druid 6, sorcerer/wizard 6, summoner 4, magus 6",
+          "effect": null,
+          "targets": "one creature/level, no two of which can be more than 30 ft. apart",
+          "duration": "1 min./level",
+          "range": "close (25 ft. + 5 ft./2 levels)",
+          "saving_throw": "Will negates (harmless)",
+          "spell_resistance": "yes",
+          "sorcerer_level": 6,
+          "description": "This spell functions like cat's grace, except that it affects multiple creatures.",
+          "school": "transmutation",
+          "subschool": null,
+          "levels": {
+            "Wizard": 6,
+            "Sorcerer": 6,
+            "Cleric": null,
+            "Druid": 6,
+            "Ranger": null,
+            "Bard": 6,
+            "Paladin": null,
+            "Alchemist": null,
+            "Summoner": 4,
+            "Witch": null,
+            "Inquisitor": null,
+            "Magus": 6
+          }
+        }
+      ]
+    }
+  },
+  "inventory": {
+    "equipment": [],
+    "inventory": []
+  },
+  "avatar": {
+    "default_url": "/avatars/original/missing.png",
+    "thumb_url": "/avatars/thumb/missing.png",
+    "medium_url": "/avatars/medium/missing.png",
+    "square_url": "/avatars/square/missing.png"
+  }
+}
