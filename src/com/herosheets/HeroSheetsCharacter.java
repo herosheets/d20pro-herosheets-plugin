@@ -9,6 +9,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.mindgene.d20.common.D20Rules;
 import com.mindgene.d20.common.creature.CreatureSpeeds;
 import com.mindgene.d20.common.creature.CreatureTemplate;
+import com.mindgene.d20.common.creature.attack.*;
 import com.mindgene.d20.common.creature.capability.CreatureCapability_SpellCaster;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassBinder;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassNotInstalledException;
@@ -21,6 +22,7 @@ import com.mindgene.d20.common.game.skill.MalformedSkillException;
 import com.mindgene.d20.common.game.skill.SkillBinder;
 import com.mindgene.d20.common.game.spell.SpellBinder;
 import com.mindgene.d20.common.importer.ImportedSpell;
+import com.mindgene.d20.common.dice.Dice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -104,6 +106,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         parseFeats(ct);
         parseSkills(ct, svc);
         parseSpells(ct, svc);
+        parseAttacks(ct);
         return ct;
     }
 
@@ -247,8 +250,54 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         }
     }
 
+    public void parseAttacks(CreatureTemplate ct) {
+
+        List<Attack> attacks = getCombat().getAttacks();
+        for (Attack attack : attacks) {
+            CreatureAttack a = new CreatureAttack();
+            a.setName(attack.getWeaponName());
+            a.setToHit((short) attack.getAttackBonus()[0]);
+
+            ArrayList<CreatureAttackDamage> damages = getDamagesForAttack(attack);
+
+            a.setDamages(damages);
+            a.setCritMinThreat(attack.calculateMinCritRange());
+            a.setCritMultiplier(attack.calculateCritMultiplier());
+            ct.getAttacks().add(a);
+        }
+    }
+
+    public ArrayList<CreatureAttackDamage> getDamagesForAttack(Attack attack) {
+
+        ArrayList<CreatureAttackDamage> damages = new ArrayList<CreatureAttackDamage>();
+        String damageType = attack.getDamageType();
+        CreatureAttackDamage attackDamage = new CreatureAttackDamage();
+
+        if(damageType.contains("S"))
+            attackDamage.addQuality( new CreatureAttackQuality_Slash() );
+        if(damageType.contains("B"))
+            attackDamage.addQuality( new CreatureAttackQuality_Bash() );
+        if(damageType.contains("P"))
+            attackDamage.addQuality( new CreatureAttackQuality_Pierce() );
+
+        try {
+            String diceString = attack.cleanDiceString();
+            attackDamage.setDice(new Dice(diceString));
+        } catch (Exception e) {
+            try {
+                attackDamage.setDice(new Dice("1d0"));
+            } catch (Exception ee) {
+            } finally {
+            }
+        }
+
+        damages.add(attackDamage);
+        return damages;
+    }
+
+
     public static ArrayList<ImportedSpell> getSpellsForClass(CreatureImportServices svc, CreatureTemplate ct, Spell[][] spells,
-                                                             String spellClassName, String domainName)  {
+                                                             String spellClassName, String domainName) {
 
         SpellBinder binder = svc.accessSpells();
         ArrayList<ImportedSpell> spellList = new ArrayList<>();

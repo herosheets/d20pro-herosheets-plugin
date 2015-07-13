@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown=true)
 public final class Combat implements java.io.Serializable {
 
@@ -68,6 +70,12 @@ public final class Combat implements java.io.Serializable {
 
     private final int dodgeBonus;
 
+    public List<Attack> getAttacks() {
+        return attacks;
+    }
+
+    private final List<Attack> attacks;
+
     @JsonCreator
     public Combat(@JsonProperty("bab") final int bab,
                   @JsonProperty("str_bonus") final int str_bonus,
@@ -78,7 +86,8 @@ public final class Combat implements java.io.Serializable {
                   @JsonProperty("misc") final int misc,
                   @JsonProperty("deflection_modifier") final int deflection_modifier,
                   @JsonProperty("natural_armor") final int natural_armor,
-                  @JsonProperty("armor_ac") final int armor_ac) {
+                  @JsonProperty("armor_ac") final int armor_ac,
+                  @JsonProperty("attacks") final List<Attack> attacks) {
         this.bab = bab;
         this.strBonus = str_bonus;
         this.dexBonus = dex_bonus;
@@ -90,6 +99,7 @@ public final class Combat implements java.io.Serializable {
         this.armorBonus = armor_ac;
         this.misc = 0;
         this.classBonus = 0;
+        this.attacks = attacks;
     }
 
 }
