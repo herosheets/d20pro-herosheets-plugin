@@ -155,6 +155,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
                 aClass.setLevel(level);
                 classList.add(aClass);
             } catch (CreatureClassNotInstalledException cclnie) {
+                System.out.println("Parse exception");
                 ct.addToErrorLog("Unable to import: " + nameOfClass + " " + level + " :" + cclnie.getMessage());
                 defaultToFighter1(ct, classList, binder, level);
             }

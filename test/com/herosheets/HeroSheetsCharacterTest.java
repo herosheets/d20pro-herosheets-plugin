@@ -4,7 +4,6 @@ import com.d20pro.plugin.api.CreatureImportServices;
 import com.d20pro.plugin.api.ImageImportService;
 import com.d20pro.plugin.api.ImportCreaturePlugin;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.herosheets.HeroSheetsCharacter;
 import com.mindgene.d20.common.creature.CreatureTemplate;
 import com.mindgene.d20.common.game.creatureclass.CreatureClassBinder;
 import com.mindgene.d20.common.game.skill.SkillBinder;
@@ -87,7 +86,9 @@ public class HeroSheetsCharacterTest {
         try {
             HeroSheetsCharacter character = mapper.readValue(file, HeroSheetsCharacter.class);
             Assert.assertEquals("character name", character.getCharacter().getCharacterName(), "lilredhotdog");
-            character.toCreatureTemplate(svc);
+            CreatureTemplate creature = character.toCreatureTemplate(svc);
+            Assert.assertEquals(creature.getHitDice(), "12");
+
         } catch (IOException e) {
             System.out.println(e);
             assert false;
