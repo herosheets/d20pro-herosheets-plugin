@@ -35,7 +35,7 @@ public final class Combat implements java.io.Serializable {
 
     // TODO : where is misc bonus?
     public int getMisc() {
-        return misc;
+        return sizeModifier;
     }
 
     private final int dexBonus;
@@ -45,6 +45,7 @@ public final class Combat implements java.io.Serializable {
     private final int deflection;
     private final int misc;
     private final int classBonus;
+    private final int sizeModifier;
 
     public int getArmorBonus() {
         return armorBonus;
@@ -80,7 +81,8 @@ public final class Combat implements java.io.Serializable {
     public Combat(@JsonProperty("bab") final int bab,
                   @JsonProperty("str_bonus") final int str_bonus,
                   @JsonProperty("dex_bonus") final int dex_bonus,
-                  @JsonProperty("dodge_modified") final int dodge_modifier,
+                  @JsonProperty("dodge_modifier") final int dodge_modifier,
+                  @JsonProperty("size_modifier") final int size_modifier,
                   @JsonProperty("armor_class") final int armor_class,
                   @JsonProperty("shield_ac") final int shield_ac,
                   @JsonProperty("misc") final int misc,
@@ -94,6 +96,7 @@ public final class Combat implements java.io.Serializable {
         this.armorClass = armor_class;
         this.naturalArmor = natural_armor;
         this.dodgeBonus = dodge_modifier;
+        this.sizeModifier = size_modifier;
         this.shieldBonus = shield_ac;
         this.deflection = deflection_modifier;
         this.armorBonus = armor_ac;
