@@ -22,11 +22,11 @@ public final class SavingThrows  implements java.io.Serializable {
     public int getByAbbreviation(String abbreviation) {
         System.out.println("This.will" + this.will);
         switch (abbreviation) {
-            case "FORT":
+            case "Fort":
                 return fortitude;
-            case "REF":
+            case "Ref":
                 return reflex;
-            case "WILL":
+            case "Will":
                 return will;
             default:
                 return 0;
