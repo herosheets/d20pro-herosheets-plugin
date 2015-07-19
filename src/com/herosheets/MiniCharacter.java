@@ -52,7 +52,9 @@ public final class MiniCharacter implements java.io.Serializable {
 
     public String getHitDice() {
         String[] tokens = getSize().split("/");
-        String[] levelTokens = tokens[1].split("/*");
+        String[] levelTokens = tokens[1].split("\\*");
+
+
         return levelTokens[0];
     }
 
