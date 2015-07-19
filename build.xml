@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 
 <project name="d20Pro" basedir="." default="init">
-	
-	<target name="init">
+    <import file="lib/one-jar-ant-task.xml" optional="true" />
+
+    <target name="init">
 	  <echo message="basedir: ${basedir}" />
         <buildPlugin bin.dir="bin"
                      src.dir="src"
+                     lib.dir="lib"
                      plugin.file="d20ProPlugin_HeroSheets.jar"
                      command.factory="com.herosheets.CommandFactoryImpl" />
 
@@ -19,6 +21,7 @@
 
     <macrodef name="buildPlugin">
         <attribute name="bin.dir" />
+        <attribute name="lib.dir" />
         <attribute name="src.dir" />
         <attribute name="plugin.file" />
         <attribute name="command.factory" />
@@ -50,6 +53,7 @@
                 <fileset dir="@{bin.dir}">
                     <include name="**/*.class" />
                 </fileset>
+                <zipgroupfileset dir="lib" includes="*.jar" excludes=""/>
 
                 <manifest>
                     <attribute name="Built-By" value="Jordan OMara" />
