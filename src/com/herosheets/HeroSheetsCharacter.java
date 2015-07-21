@@ -1,7 +1,6 @@
 package com.herosheets;
 
 import com.d20pro.plugin.api.CreatureImportServices;
-import com.d20pro.plugin.api.ImportCreatureException;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -170,14 +169,14 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
             _ac[i] = 0;
         }
 
+
         _ac[0] += getCombat().getNaturalArmor();
         _ac[1] = (byte) getCombat().getArmorBonus();
         _ac[2] = (byte) getCombat().getShieldBonus();
         _ac[3] += (byte) getCombat().getDeflection();
-        // TODO : class & misc are missing
-        _ac[4] += (byte) getCombat().getClassBonus();
         _ac[4] += (byte) getCombat().getMisc();
         _ac[5] += (byte) getCombat().getDodgeBonus();
+
 
         ct.setAC(_ac);
     }
@@ -205,7 +204,7 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
         List<Skill> skills = getMisc().getSkills();
 
         for(Skill skill: skills) {
-            String skillName = skill.getName();
+            String skillName = convertSkillName(skill.getName());
             Short skillRanks = (short) skill.getRanks();
             Short skillMisc = (short) skill.getBonus();
             GenericSkillTemplate skillTemplate = binder.accessSkill(skillName);
@@ -230,6 +229,42 @@ public final class HeroSheetsCharacter implements java.io.Serializable {
 
         }
         ct.getSkills().setSkills(skillList.toArray(new GenericSkill[skillList.size()]));
+    }
+
+    public String convertSkillName(String herosheetsName) {
+        try {
+            if (herosheetsName.contains("_")) {
+                return ununderscore(herosheetsName);
+            }
+
+            if (herosheetsName.contains(":")) {
+                return untype(herosheetsName);
+            }
+
+            return herosheetsName;
+        } catch (Exception e) {
+            return herosheetsName;
+        }
+    }
+
+    public String ununderscore(String herosheetsName) {
+        String[] tokens = herosheetsName.split("_");
+        return safeCap(tokens[0]) + " " + safeCap(tokens[1]);
+    }
+
+    public String untype(String herosheetsName) {
+        String[] tokens = herosheetsName.split(":");
+        String skill = safeCap(tokens[0].trim());
+        String type = safeCap(tokens[1].trim());
+        if(skill.startsWith("P") || skill.startsWith("C")) {
+            return skill + ": " + type;
+        } else {
+            return skill + " (" + type + ")";
+        }
+    }
+
+    public String safeCap(String input) {
+       return input.substring(0, 1).toUpperCase() + input.substring(1);
     }
 
     public void parseSpells(CreatureTemplate ct, CreatureImportServices svc)  {

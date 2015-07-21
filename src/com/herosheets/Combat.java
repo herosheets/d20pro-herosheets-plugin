@@ -35,7 +35,7 @@ public final class Combat implements java.io.Serializable {
 
     // TODO : where is misc bonus?
     public int getMisc() {
-        return sizeModifier;
+        return sizeModifier + classBonus + misc;
     }
 
     private final int dexBonus;
@@ -45,6 +45,7 @@ public final class Combat implements java.io.Serializable {
     private final int deflection;
     private final int misc;
     private final int classBonus;
+
     private final int sizeModifier;
 
     public int getArmorBonus() {
